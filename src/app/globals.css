@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255; */
   --background-color: theme('colors.lightPink');
   --screen-sm: 640px;
   --screen-md: 768px;
@@ -14,49 +11,6 @@
   --screen-2xl: 1536px;
 }
 
-@media (max-width: theme('screens.md')) {
-  :root {
-    --maroon-border: url('../../public/backgrounds/maroon/mobile/top.svg');
-    --purple-border: url('../../public/backgrounds/purple/mobile/top.svg');
-    /* --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255; */
-  }
-}
-
-@media (min-width: theme('screens.md')) {
-  :root {
-    --maroon-border: url('../../public/backgrounds/maroon/web/top.svg');
-    --purple-border: url('../../public/backgrounds/purple/web/top.svg');
-    /* --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255; */
-  }
-}
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
 body {
   background-color: var(--background-color);
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-}
-
-.maroon-border {
-  background-image: var(--maroon-border);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size:  100% 100%; /* Resize the background image to cover the entire container */
-  width: 100%;
 }

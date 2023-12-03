@@ -1,15 +1,54 @@
 import Image from 'next/image'
+import maroonBorderWeb from '../../public/backgrounds/maroon/web/top.svg'
+import maroonBorderMobile from '../../public/backgrounds/maroon/mobile/top.svg'
+import purpleBorderWeb from '../../public/backgrounds/purple/web/top.svg'
+import purpleBorderMobile from '../../public/backgrounds/purple/mobile/top.svg'
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute">
-      <div className="w-full h-full">
+      <div className="flex w-full h-full flex-col justify-between">
         <p>Section 1</p>
-        <div className='maroon-border w-full' />
+        <div className='w-full block md:hidden -mb-1'>
+          <Image
+            priority
+            src={maroonBorderMobile}
+            alt="Maroon Border"
+            fill
+            className='!relative'
+          />
+        </div>
+        <div className='w-full hidden md:block  -mb-1'>
+          <Image
+            priority
+            src={maroonBorderWeb}
+            alt="Maroon Border"
+            fill
+            className='!relative'
+          />
+        </div>
       </div>
-      <div className="bg-maroon w-full h-full">
+      <div className="bg-maroon flex w-full h-full flex-col justify-between">
         <p>Section 2</p>
-        <div className='maroon-border w-full' />
+        <div className='w-full block md:hidden  -mb-1'>
+          <Image
+            priority
+            src={purpleBorderMobile}
+            alt="Purple Border"
+            fill
+            className='!relative'
+          />
+        </div>
+        <div className='w-full hidden md:block  -mb-1'>
+          <Image
+            priority
+            src={purpleBorderWeb}
+            alt="Purple Border"
+            fill
+            className='!relative'
+          />
+        </div>
       </div>
       <div className="bg-darkPurple w-full h-full">
         <p>Section 3</p>
