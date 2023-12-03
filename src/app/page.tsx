@@ -7,9 +7,20 @@ import purpleBorderMobile from '../../public/backgrounds/purple/mobile/top.svg'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute">
+    <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
-        <p>Section 1</p>
+        <p>
+          alex koppara is a founding<br />
+          software engineer at juniper and<br />
+          freelance consultant for early stage startups,<br />
+          alex koppara, a seasoned founding engineer,<br />
+          offers his expertise as a freelance consultant,<br />
+          dedicated to elevating early-stage startups,<br />
+          revitalizing healthcare companies,<br />
+          transforming enterprise strategies,<br />
+          and providing innovative digital solutions for consumer-facing retailers.<br />
+          Leverage his proven track record to propel your tech endeavors to new heights.
+        </p>
         <div className='w-full block md:hidden -mb-1'>
           <Image
             priority

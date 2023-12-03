@@ -19,6 +19,9 @@ const config: Config = {
         orange: '#FF975C'
       }
     },
+    fontFamily: {
+      maple: [ "maple", "sans-serif" ]
+    }
   },
   plugins: [],
 }
