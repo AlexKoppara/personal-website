@@ -9,55 +9,57 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
-        <p>
-          alex koppara is a founding<br />
-          software engineer at juniper and<br />
-          freelance consultant for early stage startups,<br />
-          alex koppara, a seasoned founding engineer,<br />
-          offers his expertise as a freelance consultant,<br />
-          dedicated to elevating early-stage startups,<br />
-          revitalizing healthcare companies,<br />
-          transforming enterprise strategies,<br />
-          and providing innovative digital solutions for consumer-facing retailers.<br />
-          Leverage his proven track record to propel your tech endeavors to new heights.
-        </p>
+        <div className='grid grid-cols-4 grid-rows-{4} gap-4 mx-10'>
+          <p>
+            alex koppara is a founding<br />
+            software engineer at juniper and<br />
+            freelance consultant for early stage startups,<br />
+            alex koppara, a seasoned founding engineer,<br />
+            offers his expertise as a freelance consultant,<br />
+            dedicated to elevating early-stage startups,<br />
+            revitalizing healthcare companies,<br />
+            transforming enterprise strategies,<br />
+            and providing innovative digital solutions for consumer-facing retailers.<br />
+            Leverage his proven track record to propel your tech endeavors to new heights.
+          </p>
+        </div>
         <div className='w-full block md:hidden -mb-1'>
           <Image
             priority
             src={maroonBorderMobile}
             alt="Maroon Border"
             fill
-            className='!relative'
+            className='!relative no-drag'
           />
         </div>
-        <div className='w-full hidden md:block  -mb-1'>
+        <div className='w-full hidden md:block -mb-1'>
           <Image
             priority
             src={maroonBorderWeb}
             alt="Maroon Border"
             fill
-            className='!relative'
+            className='!relative no-drag'
           />
         </div>
       </div>
       <div className="bg-maroon flex w-full h-full flex-col justify-between">
         <p>Section 2</p>
-        <div className='w-full block md:hidden  -mb-1'>
+        <div className='w-full block md:hidden -mb-1'>
           <Image
             priority
             src={purpleBorderMobile}
             alt="Purple Border"
             fill
-            className='!relative'
+            className='!relative no-drag'
           />
         </div>
-        <div className='w-full hidden md:block  -mb-1'>
+        <div className='w-full hidden md:block -mb-1'>
           <Image
             priority
             src={purpleBorderWeb}
             alt="Purple Border"
             fill
-            className='!relative'
+            className='!relative no-drag'
           />
         </div>
       </div>
