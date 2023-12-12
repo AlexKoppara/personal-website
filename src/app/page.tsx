@@ -9,8 +9,13 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
-        <div className='grid grid-cols-4 grid-rows-{4} gap-4 mx-6 md:mx-32'>
-          <h1 className='text-darkPink text-4xl md:text-6xl'>
+        <div className='grid grid-cols-12 grid-rows-{4} gap-4 mx-6 md:mx-32 mt-16'>
+          <div className='row-span-1 col-start-9 col-end-13 flex justify-between text-base text-maroon font-bold'>
+            <a href="mailto:alexkoppara@gmail.com">SAY HI</a>
+            <a href="https://github.com/AlexKoppara/">GITHUB</a>
+            <a href="https://www.linkedin.com/in/alex-koppara/">LINKEDIN</a>
+          </div>
+          <h1 className='text-darkPink text-4xl md:text-6xl col-span-8 row-span-2'>
             <span className='text-maroon'>alex koppara</span> is a founding software engineer at <span className='text-maroon underline'>juniper (yc w21)</span> and freelance consultant for early-stage startups.
           </h1>
         </div>
