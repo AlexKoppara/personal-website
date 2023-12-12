@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta property="og:title" content="Alex Koppara" />
+      <meta property="og:type" content="profile" />
+      <meta property="og:url" content="https://alexkoppara.com" />
       <body className={inter.className}>{children}</body>
     </html>
   )
