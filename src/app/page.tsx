@@ -9,19 +9,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
-        <div className='grid grid-cols-4 grid-rows-{4} gap-4 mx-10'>
-          <p>
-            alex koppara is a founding<br />
-            software engineer at juniper and<br />
-            freelance consultant for early stage startups,<br />
-            alex koppara, a seasoned founding engineer,<br />
-            offers his expertise as a freelance consultant,<br />
-            dedicated to elevating early-stage startups,<br />
-            revitalizing healthcare companies,<br />
-            transforming enterprise strategies,<br />
-            and providing innovative digital solutions for consumer-facing retailers.<br />
-            Leverage his proven track record to propel your tech endeavors to new heights.
-          </p>
+        <div className='grid grid-cols-4 grid-rows-{4} gap-4 mx-6 md:mx-32'>
+          <h1 className='text-darkPink text-4xl md:text-6xl'>
+            <span className='text-maroon'>alex koppara</span> is a founding software engineer at <span className='text-maroon underline'>juniper (yc w21)</span> and freelance consultant for early-stage startups.
+          </h1>
         </div>
         <div className='w-full block md:hidden -mb-1'>
           <Image
