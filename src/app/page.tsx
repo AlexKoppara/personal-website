@@ -10,12 +10,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
         <div className='grid grid-cols-12 grid-rows-{4} gap-4 mx-6 md:mx-32 mt-16'>
-          <div className='row-span-1 col-start-9 col-end-13 flex justify-between text-base text-maroon font-bold'>
+          <div className='row-span-1 col-span-12 md:col-start-9 md:col-end-13 flex justify-between text-base text-maroon font-bold'>
             <a href="mailto:alexkoppara@gmail.com" rel="noopener noreferrer" target="_blank">SAY HI</a>
             <a href="https://github.com/AlexKoppara/" rel="noopener noreferrer" target="_blank">GITHUB</a>
             <a href="https://www.linkedin.com/in/alex-koppara/" rel="noopener noreferrer" target="_blank">LINKEDIN</a>
           </div>
-          <h1 className='text-darkPink text-4xl md:text-6xl col-span-8 row-span-2'>
+          <h1 className='text-darkPink text-4xl md:text-6xl col-span-12 md:col-span-8 row-span-2'>
             <span className='text-maroon'>alex koppara</span> is a founding software engineer at <span className='text-maroon underline'>juniper (yc w21)</span> and freelance consultant for early-stage startups.
           </h1>
         </div>
@@ -39,7 +39,18 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-maroon flex w-full h-full flex-col justify-between">
-        <p>Section 2</p>
+        <div className='grid grid-cols-12 grid-rows-{4} gap-4 mx-6 md:mx-32 mt-2'>
+          <div className='col-span-12 md:col-span-3'>
+            <p className='text-base text-lightPink font-bold'>FREELANCE SERVICES</p>
+          </div>
+          <div className='col-span-12 md:col-start-4 md:col-end-13 text-base text-lightPink'>
+            <p className='text-darkPink text-3xl md:text-5xl'><span className='text-lightPink'>i work with clients who</span> know their business model, strategy, and audience, but <span className='text-lightPink'>need an experienced, holistic thinking, lead-level engineer</span> capable of executing on all aspects of development on a project.</p>
+            <p className='text-darkPink text-2xl'>My clients normally hire me for:</p>
+            <p className='text-2xl'>Strategy</p>
+            <p className='text-2xl'>Development</p>
+            <p className='text-2xl'>Leadership</p>
+          </div>
+        </div>
         <div className='w-full block md:hidden -mb-1'>
           <Image
             priority
