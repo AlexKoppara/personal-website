@@ -44,3 +44,8 @@ a:click
   user-drag: none;
   user-select: none;
 }
+
+li {
+  list-style-image: url('../../public/bullet.svg');
+  list-style-position: inside;
+}

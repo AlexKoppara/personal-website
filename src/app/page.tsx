@@ -10,7 +10,7 @@ export default function Home() {
     <main className="grid min-h-screen flex-col items-center justify-between  w-full h-full absolute font-maple">
       <div className="flex w-full h-full flex-col justify-between">
         <div className='grid grid-cols-12 grid-rows-{11} gap-4 mx-6 md:mx-32 mt-16'>
-          <div className='row-start-1 row-end-2 col-span-full md:col-start-9 md:col-end-13 flex justify-between text-base text-maroon font-bold'>
+          <div className='row-start-1 row-end-2 col-span-full md:col-start-6 md:col-end-13 lg:col-start-9 lg:col-end-13 flex justify-between text-base text-maroon font-bold'>
             <a href="mailto:alexkoppara@gmail.com" rel="noopener noreferrer" target="_blank">SAY HI</a>
             <a href="https://github.com/AlexKoppara/" rel="noopener noreferrer" target="_blank">GITHUB</a>
             <a href="https://www.linkedin.com/in/alex-koppara/" rel="noopener noreferrer" target="_blank">LINKEDIN</a>
@@ -107,47 +107,6 @@ export default function Home() {
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           {/* end mobile view */}
-
-          {/* <div className='row-start-4 row-end-4 col-span-full md:col-start-1 md:col-end-5'>
-            <p className='text-2xl text-maroon'>Juniper (YC W21)</p>
-            <p className='text-2xl text-maroon'>Founding Software Engineer</p>
-          </div>
-          <div className='row-start-6 row-end-6 md:row-start-4 md:row-end-4 col-span-full md:col-start-6 md:col-end-10'>
-            <p className='text-2xl text-maroon'>Maveli Coffee</p>
-            <p className='text-2xl text-maroon'>Founder</p>
-          </div>
-          <p className='text-darkPink row-start-5 row-end-5 md:row-start-5 md:row-end-5 col-span-full md:col-start-1 md:col-end-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className='text-darkPink row-start-7 row-end-7 md:row-start-5 md:row-end-5 col-span-full md:col-start-6 md:col-end-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-          {/* <div className='row-span-4 col-span-full md:col-start-1 md:col-end-5'>
-            <p className='text-2xl text-maroon'>Headway</p>
-            <p className='text-2xl text-maroon'>Senior Software Engineer</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className='row-span-4 col-span-full md:col-start-6 md:col-end-10'>
-            <p className='text-2xl text-maroon'>House Rx</p>
-            <p className='text-2xl text-maroon'>Software Consultant</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className='row-span-4 col-span-full md:col-start-1 md:col-end-5'>
-            <p className='text-2xl text-maroon'>Barsala</p>
-            <p className='text-2xl text-maroon'>Software Consultant</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className='row-span-4 col-span-full md:col-start-6 md:col-end-10'>
-            <p className='text-2xl text-maroon'>30 Madison</p>
-            <p className='text-2xl text-maroon'>Software Engineer</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className='row-span-4 col-span-full md:col-start-1 md:col-end-5'>
-            <p className='text-2xl text-maroon'>Domio</p>
-            <p className='text-2xl text-maroon'>Lead Software Engineer</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className='row-span-4 col-span-full md:col-start-6 md:col-end-10'>
-            <p className='text-2xl text-maroon'>Capital One</p>
-            <p className='text-2xl text-maroon'>Software Engineer</p>
-            <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div> */}
         </div>
         <div className='w-full block md:hidden -mb-1'>
           <Image
@@ -169,16 +128,18 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-maroon flex w-full h-full flex-col justify-between">
-        <div className='grid grid-cols-12 grid-rows-{4} gap-4 mx-6 md:mx-32 mt-2'>
+        <div className='grid grid-cols-12 grid-rows-{4} gap-4 mx-6 md:mx-32 mt-2 mb-16'>
           <div className='col-span-full md:col-span-3'>
             <p className='text-base text-lightPink font-bold'>FREELANCE SERVICES</p>
           </div>
           <div className='col-span-full md:col-start-4 md:col-end-13 text-base text-lightPink'>
             <p className='text-darkPink text-3xl md:text-5xl'><span className='text-lightPink'>i work with clients who</span> know their business model, strategy, and audience, but <span className='text-lightPink'>need an experienced, holistic thinking, lead-level engineer</span> capable of executing on all aspects of development on a project.</p>
-            <p className='text-darkPink text-2xl'>My clients normally hire me for:</p>
-            <p className='text-2xl'>Strategy</p>
-            <p className='text-2xl'>Development</p>
-            <p className='text-2xl'>Leadership</p>
+            <p className='text-darkPink text-2xl my-6 md:my-9'>My clients normally hire me for:</p>
+            <ul>
+              <li className='text-2xl'><span className='pl-2 md:pl-4'>Strategy</span></li>
+              <li className='text-2xl'><span className='pl-2 md:pl-4'>Development</span></li>
+              <li className='text-2xl'><span className='pl-2 md:pl-4'>Leadership</span></li>
+            </ul>
           </div>
         </div>
         <div className='w-full block md:hidden -mb-1'>
@@ -201,7 +162,10 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-darkPurple w-full h-full">
-        <p>Section 3</p>
+        <div className='grid grid-cols-12 grid-rows-2 gap-4 mx-6 md:mx-32 mt-2 mb-16'>
+          <h1 className='text-lightPurple text-4xl md:text-6xl row-span-1 col-span-full'>wanna collaborate?</h1>
+          <h1 className='text-lavender underline text-4xl md:text-6xl row-span-2 col-span-full'>say hi!</h1>
+        </div>
       </div>
     </main>
   )
