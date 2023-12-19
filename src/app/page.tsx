@@ -31,8 +31,8 @@ export default function Home() {
             <p className='text-2xl text-maroon'>Maveli Coffee</p>
             <p className='text-2xl text-maroon'>Founder</p>
           </div>
-          <p className='hidden md:block text-darkPink row-start-5 row-end-5 col-start-1 col-end-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className='hidden md:block text-darkPink row-start-5 row-end-5 col-start-6 col-end-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-5 row-end-5 col-start-1 col-end-5 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-5 row-end-5 col-start-6 col-end-10 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div className='hidden md:block row-start-6 row-end-6 col-start-1 col-end-5'>
             <p className='text-2xl text-maroon'>Headway</p>
             <p className='text-2xl text-maroon'>Senior Software Engineer</p>
@@ -41,8 +41,8 @@ export default function Home() {
             <p className='text-2xl text-maroon'>House Rx</p>
             <p className='text-2xl text-maroon'>Software Consultant</p>
           </div>
-          <p className='hidden md:block text-darkPink row-start-7 row-end-7 col-start-1 col-end-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className='hidden md:block text-darkPink row-start-7 row-end-7 col-start-6 col-end-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-7 row-end-7 col-start-1 col-end-5 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-7 row-end-7 col-start-6 col-end-10 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div className='hidden md:block row-start-8 row-end-8 col-start-1 col-end-5'>
             <p className='text-2xl text-maroon'>Barsala</p>
             <p className='text-2xl text-maroon'>Software Consultant</p>
@@ -51,8 +51,8 @@ export default function Home() {
             <p className='text-2xl text-maroon'>30 Madison</p>
             <p className='text-2xl text-maroon'>Software Engineer</p>
           </div>
-          <p className='hidden md:block text-darkPink row-start-9 row-end-9 col-start-1 col-end-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className='hidden md:block text-darkPink row-start-9 row-end-9 col-start-6 col-end-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-9 row-end-9 col-start-1 col-end-5 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-9 row-end-9 col-start-6 col-end-10 mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div className='hidden md:block row-start-10 row-end-10 col-start-1 col-end-5'>
             <p className='text-2xl text-maroon'>Domio</p>
             <p className='text-2xl text-maroon'>Lead Software Engineer</p>
@@ -61,47 +61,47 @@ export default function Home() {
             <p className='text-2xl text-maroon'>Capital One</p>
             <p className='text-2xl text-maroon'>Software Engineer</p>
           </div>
-          <p className='hidden md:block text-darkPink row-start-11 row-end-11 col-start-1 col-end-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p className='hidden md:block text-darkPink row-start-11 row-end-11 col-start-6 col-end-10 mb-14 md:mb-24'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-11 row-end-11 col-start-1 col-end-5 mb-24'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p className='hidden md:block text-darkPink row-start-11 row-end-11 col-start-6 col-end-10 mb-24'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           {/* end desktop view */}
 
           {/* mobile view */}
-          <div className='block md:hidden row-start-4 row-end-4 col-span-full'>
+          <div className='block md:hidden row-start-4 row-end-4 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>Juniper (YC W21)</p>
             <p className='text-2xl text-maroon'>Founding Software Engineer</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-5 row-end-5 col-span-full'>
+          <div className='block md:hidden row-start-5 row-end-5 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>Maveli Coffee</p>
             <p className='text-2xl text-maroon'>Founder</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-6 row-end-6 col-span-full'>
+          <div className='block md:hidden row-start-6 row-end-6 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>Headway</p>
             <p className='text-2xl text-maroon'>Senior Software Engineer</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-7 row-end-7 col-span-full'>
+          <div className='block md:hidden row-start-7 row-end-7 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>House Rx</p>
             <p className='text-2xl text-maroon'>Software Consultant</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-8 row-end-8 col-span-full'>
+          <div className='block md:hidden row-start-8 row-end-8 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>Barsala</p>
             <p className='text-2xl text-maroon'>Software Consultant</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-9 row-end-9 col-span-full'>
+          <div className='block md:hidden row-start-9 row-end-9 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>30 Madison</p>
             <p className='text-2xl text-maroon'>Software Engineer</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-10 row-end-10 col-span-full'>
+          <div className='block md:hidden row-start-10 row-end-10 col-span-full mb-6'>
             <p className='text-2xl text-maroon'>Domio</p>
             <p className='text-2xl text-maroon'>Lead Software Engineer</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className='block md:hidden row-start-11 row-end-11 col-span-full mb-14 md:mb-24'>
+          <div className='block md:hidden row-start-11 row-end-11 col-span-full mb-14'>
             <p className='text-2xl text-maroon'>Capital One</p>
             <p className='text-2xl text-maroon'>Software Engineer</p>
             <p className='text-darkPink'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
