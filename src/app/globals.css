@@ -17,6 +17,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 :root {
   --background-color: theme('colors.lightPink');
   --screen-sm: 640px;
@@ -32,9 +33,12 @@ body {
 }
 
 a:hover {
-  cursor: url('../../public/cursor.svg') 16 16, auto;
+  cursor: url('../../public/cursor_hover.svg') 16 16, auto;
 }
-a:click
+
+a:active {
+  cursor: url('../../public/cursor_click.svg') 16 16, auto;
+}
 
 .no-drag {
   -webkit-user-drag: none;
